@@ -1,0 +1,10 @@
+README.md
+setup.py
+homer.egg-info/PKG-INFO
+homer.egg-info/SOURCES.txt
+homer.egg-info/dependency_links.txt
+homer.egg-info/entry_points.txt
+homer.egg-info/top_level.txt
+myhomer/__init__.py
+myhomer/myhomer.py
+myhomer/myutils.py

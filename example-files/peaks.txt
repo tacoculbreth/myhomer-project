@@ -1,0 +1,42 @@
+# HOMER Peaks
+# Peak finding parameters:
+# tag directory = /home/hyl023/lab5/tagdirs/Klf4
+#
+# total peaks = 3020
+# peak size = 75
+# peaks found using tags on both strands
+# minimum distance between peaks = 150
+# fragment length = 74
+# genome size = 2000000000
+# Total tags = 1720172.0
+# Total tags in peaks = 53736.0
+# Approximate IP efficiency = 3.12%
+# tags per bp = 0.000798
+# expected tags per peak = 0.060
+# maximum tags considered per bp = 1.0
+# effective number of tags used for normalization = 10000000.0
+# Peaks have been centered at maximum tag pile-up
+# FDR rate threshold = 0.001000000
+# FDR effective poisson threshold = 5.086211e-07
+# FDR tag threshold = 4.0
+# number of putative peaks = 93354
+#
+# input tag directory = /home/hyl023/lab5/tagdirs/input
+# Fold over input required = 4.00
+# Poisson p-value over input required = 1.00e-04
+# Putative peaks filtered by input = 83515
+#
+# size of region used for local filtering = 10000
+# Fold over local region required = 4.00
+# Poisson p-value over local region required = 1.00e-04
+# Putative peaks filtered by local signal = 6819
+#
+# Maximum fold under expected unique positions for tags = 2.00
+# Putative peaks filtered for being too clonal = 0
+#
+# cmd = findPeaks /home/hyl023/lab5/tagdirs/Klf4 -i /home/hyl023/lab5/tagdirs/input -style factor -o auto
+#
+# Column Headers:
+#PeakID	chr	start	end	strand	Normalized Tag Count	focus ratio	findPeaks Score	Total Tags	Control Tags (normalized to IP Experiment)	Fold Change vs Control	p-value vs Control	Fold Change vs Local	p-value vs Local	Clonal Fold Change
+17-16	chrTEST	0	10	+	953.4	0.578	73.000000	167.0	4.0	41.78	3.93e-202	17.10	4.55e-134	0.90
+17-10	chrTEST	5	15	+	842.9	0.763	77.000000	145.0	6.0	24.18	1.99e-142	23.87	1.24e-141	0.83
