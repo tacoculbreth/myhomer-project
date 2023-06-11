@@ -19,6 +19,10 @@ By default, the program check motifs aginst MEME-formatted HOCOMOCOv11 database 
 - For motifs database, please download 'Motif Databases' under 'Databases' to get the latest version
 - For reference genome, please download fasta and associated files from CSE 185 Public genome directory. Alternatively, you can download the mouse genome from [Genome Reference Consortium](https://www.ncbi.nlm.nih.gov/grc/mouse)
 
+***Motifs database and reference genome must be formatted like this inside myhomer-project directory***
+- `myhomer-project/motif_databases/`
+- `myhomer-project/reference/`
+
 # Basic Usage
 For testing myhomer on your example,`cd myhomer` from the `myhomer-project` directory where necessary scripts are located. 
 
