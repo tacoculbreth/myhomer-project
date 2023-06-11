@@ -1,13 +1,15 @@
-# Benchmarking results from SEA, Simple Enrichment Analysis 
+# Benchmarking results from SEA (Simple Enrichment Analysis)
 
-## Prameters for SEA Data Submission Form
+To compare output from myhomer to SEA, HOMER Peaks file from ChIP-seq for mouse transcription factor, Klf4 was used. HOMER peaks file has slightly different format, so this was formatted for the SEA Web Interface.
+
+### Prameters for SEA Data Submission Form
 - Type of control sequences to use: **shuffled input sequences**
 - Sequence alphabet: **DNA, RNA or Protein**
 - Input Sequence: **BED file**
 - Genome: **UCSC Mammal Genomes, Mouse, mm10(GRCm38)**
 - Input Motif: **MOUSE (Mus musculus) DNA, HOCOMOCO Mouse (v11 FULL)**
 
-## How to prepare BED files (.bed) from HOMER Peaks file (peaks.txt)
+### How to prepare BED files (.bed) from HOMER Peaks file (peaks.txt)
 ```
 tail -n +40 peaks.txt | cut -f 2-4 > Klf4_peaks.bed
 awk '{print "chr"$0}' Klf4_peaks.bed > Klf4_peaks_ver2.bed
