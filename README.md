@@ -1,5 +1,5 @@
 # myhomer
-myhomer is imple motif enrichment program to identify statistically significant enrichments of known motifs.
+myhomer is simple motif enrichment program to identify statistically significant enrichments of known motifs.
 
 # Install Instructions
 ## 1. Install miniconda 
