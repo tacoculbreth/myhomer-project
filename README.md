@@ -31,11 +31,6 @@ The basic usage is:
 python3 myhomer.py [peaks_file] [reference_genome] [output_directory]
 ```
 
-Run using a small test example:
-```
-python3 myhomer.py ../example-files/peaks.txt ../example-files/test.fa ../example-files/output/
-```
-
 # Input
 Required input to myhomer is
 1. Homer Peaks file (Default: `peaks.txt`)
